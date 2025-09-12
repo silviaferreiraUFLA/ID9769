@@ -20,7 +20,7 @@ This repository contains all scripts required to reproduce the simulation and nu
 | File | Related Figure(s) | Description |
 |--------|-------------------|-------------|
 | `https://www.google.com/maps/d/u/0/edit?mid=1TxKzTqwEfGx__l0Tg8phycSTLsyf0gA&usp=sharing` | Fig. 1 | Google My Maps link containing the geographical coordinates of poles and transformers at UFLA. |
-| `flywheel.m` | Fig. 6 (a, b, c) | Calculates mass, moment of inertia, and stored kinetic energy for five flywheel design cases. Generates bar plots comparing steel and aluminum options. |
+| `script_UFLA_OpenDSS_deterministic_power_flow.py` | Table II and Fig 5 | This routine performs a deterministic (snapshot) power flow analysis in OpenDSS. It uses the OpenDSS input files located in the folder XX as the system model, including the master circuit, load profiles, and distributed generation data. The routine automatically solves the power flow for different scenarios (e.g., minimum/maximum demand, with or without distributed generation), calculates key system metrics such as total active and reactive power, bus voltage magnitudes, losses, and power factor, and saves the results in an Excel file. |
 | `senales.m` | Fig. 9 (a, b, c, d) | Loads waveform data from `Graf-KERs.xlsx` and plots four time-domain signals: input current, inductor currents, output current, and output voltage. |
 
 ---

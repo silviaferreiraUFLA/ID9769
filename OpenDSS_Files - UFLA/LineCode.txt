@@ -1,0 +1,21 @@
+!MT
+New LineCode.MT_150 nphases=3 R1=0.161 X1=0.12 R0=0.161 X0=0.12 C1=0 C0=0 Units=km
+New LineCode.MT_120 nphases=3 R1=0.197 X1=0.124 R0=0.197 X0=0.124 C1=0 C0=0 Units=km
+New LineCode.MT_50 nphases=3 R1=0.495 X1=0.141 R0=0.495 X0=0.141 C1=0 C0=0 Units=km
+!BT
+New LineCode.BT_35 nphases=3 R1=0.63 X1=0.11 R0=0.63 X0=0.11 C1=0 C0=0 Units=km
+New LineCode.BT_50 nphases=3 R1=0.47 X1=0.11 R0=0.47 X0=0.11 C1=0 C0=0 Units=km
+New LineCode.BT_95 nphases=3 R1=0.23 X1=0.10 R0=0.23 X0=0.10 C1=0 C0=0 Units=km
+New LineCode.BT_120 nphases=3 R1=0.191 X1=0.10 R0=0.19 X0=0.10 C1=0 C0=0 Units=km
+New LineCode.BT_240 nphases=3 R1=0.094 X1=0.098 R0=0.094 X0=0.098 C1=0 C0=0 Units=km
+
+New LineCode.BT_2x240 nphases=3 R1=0.047 X1=0.049 R0=0.047 X0=0.049 C1=0 C0=0 Units=km
+New LineCode.BT_5x240 nphases=3 R1=0.0188 X1=0.0196 R0=0.0188 X0=0.0196 C1=0 C0=0 Units=km
+New LineCode.BT_6x240 nphases=3 R1=0.01566 X1=0.01633 R0=0.01566 X0=0.01633 C1=0 C0=0 Units=km
+
+
+
+New LineCode.4c_.35 nphases=3 R1=0.089 X1=0.0675 R0=0.319 X0=0.076 C1=0 C0=0 Units=km
+New LineCode.4c_185 nphases=3 R1=0.166 X1=0.068 R0=0.58 X0=0.078 C1=0 C0=0 Units=km
+New LineCode.4c_70 nphases=3 R1=0.446 X1=0.071 R0=1.505 X0=0.083 C1=0 C0=0 Units=km
+New LineCode.4c_95_SAC_XC nphases=3 R1=0.322 X1=0.074 R0=0.804 X0=0.093 C1=0 C0=0 Units=km

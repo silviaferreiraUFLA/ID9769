@@ -1,0 +1,1 @@
+New PVSystem.ABI_1 phases=3 bus1=QDABI kV=0.22 kVA=19 irradiance=1 Pmpp=19 pf=1 %cutin=0.1 %cutout=0.1

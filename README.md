@@ -27,16 +27,26 @@ This repository contains all scripts required to reproduce the simulation and nu
 
 ## 📂 How to use
 
+**1.Download and extract** the zipped folder `ModelingUFLA`, available inside the directory `OpenDSS_Files - UFLA`.
+
+**2. Open the Python scripts** in your environment (e.g., Spyder) and set the correct paths for the OpenDSS model and load shape files, according to your local directory structure.
+
 | File | Adjustments |
 |------|-------------|
-| `script_UFLA_OpenDSS_deterministic_power_flow.py` `script_UFLA_OpenDSS_daily_power_flow.py` | Update the file paths to match your computer. 
-||`circuito = r"C:\Users\User\Desktop\ModelingUFLA\Master_A.dss"`|
+| `script_UFLA_OpenDSS_deterministic_power_flow.py`  | Update the file paths to match your computer. 
+|`script_UFLA_OpenDSS_daily_power_flow.py`|`circuito = r"C:\Users\User\Desktop\ModelingUFLA\Master_A.dss"`|
 ||`arquivo_cargas_min = r"C:\Users\User\Desktop\ModelingUFLA\Loads_A.txt"`|
 ||`arquivo_cargas_max = r"C:\Users\User\Desktop\ModelingUFLA\Loads_B.txt"`|
 ||`pv1 = r"C:\Users\User\Desktop\ModelingUFLA\PVSystem1.txt"`|
 ||`pv2 = r"C:\Users\User\Desktop\ModelingUFLA\PVSystem2.txt"`|
 ||#Save results to Excel  `df.to_excel(r"C:\Users\User\Desktop\resultados_cenarios.xlsx", index=False)`|
 
+
+
+**3. Execute the scripts** to perform the simulations.
+
+**4. Check the results**
+The output files in .xls format will be automatically saved in the folder `ModelingUFLA\Resultados`.
 
 
 ---

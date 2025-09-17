@@ -25,10 +25,19 @@ This repository contains all scripts required to reproduce the simulation and nu
 
 ---
 
-## 📂 Required Database
+## 📂 How to use
 
-- `Graf-KERs.xlsx`: Required for `senales.m`. Place it in the same folder as the script.
-- `flywheel.m` and `TransferFunctions_KERS.m` are standalone and do not require additional files.
+| File | Adjustments |
+|------|-------------|
+| `script_UFLA_OpenDSS_deterministic_power_flow.py` | Update the file paths to match your computer. 
+||`circuito = r"C:\Users\User\Desktop\ModelingUFLA\Master_A.dss"`|
+||`arquivo_cargas_min = r"C:\Users\User\Desktop\ModelingUFLA\Loads_A.txt"`|
+||`arquivo_cargas_max = r"C:\Users\User\Desktop\ModelingUFLA\Loads_B.txt"`|
+||`pv1 = r"C:\Users\User\Desktop\ModelingUFLA\PVSystem1.txt"`|
+||`pv2 = r"C:\Users\User\Desktop\ModelingUFLA\PVSystem2.txt"`|
+||#Save results to Excel  `df.to_excel(r"C:\Users\User\Desktop\resultados_cenarios.xlsx", index=False)`|
+
+
 
 ---
 

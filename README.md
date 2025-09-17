@@ -21,7 +21,7 @@ This repository contains all scripts required to reproduce the simulation and nu
 |--------|-------------------|-------------|
 | `https://www.google.com/maps/d/u/0/edit?mid=1TxKzTqwEfGx__l0Tg8phycSTLsyf0gA&usp=sharing` | Fig. 1 | Google My Maps link containing the geographical coordinates of poles and transformers at UFLA. |
 | `script_UFLA_OpenDSS_deterministic_power_flow.py` | Table II and Fig 5 | This routine performs a deterministic (snapshot) power flow analysis in OpenDSS. It uses the OpenDSS input files located in the folder `OpenDSS_Files - UFLA` as the system model. The routine solves the power flow for different scenarios (minimum/maximum demand, with or without distributed generation) and saves the results in an Excel file. |
-| `senales.m` | Fig. 9 (a, b, c, d) | Loads waveform data from `Graf-KERs.xlsx` and plots four time-domain signals: input current, inductor currents, output current, and output voltage. |
+| `script_UFLA_OpenDSS_daily_power_flow.py` | Fig. 6 (a, b, c, d, e f, g, h) | This routine performs a daily time-series power flow analysis in OpenDSS, located in the folder OpenDSS_Files - UFLA. In addition to solving the power flow for different scenarios the routine implements an optimization algorithm to determine the optimal capacitor bank size. All simulation results, including voltage profiles, total active and reactive power, and power factor, are saved in an Excel file. |
 
 ---
 
@@ -41,11 +41,11 @@ This repository contains all scripts required to reproduce the simulation and nu
 
 ---
 
-## 💻 Requirements
+## 💻 Softwares
 
-- MATLAB R2018b or later.
+- Phyton 3.13.
 - OpenDSS Version 9.8.0.1 or later.
-- No additional toolboxes are required.
+- All simulation codes were executed using the Spyder IDE.
 
 ---
 
@@ -54,7 +54,8 @@ This repository contains all scripts required to reproduce the simulation and nu
 For questions or replication of results:  
 silvia.ferreira@ufla.br
 
+The data used in this work, including model data, were collected from the distribution system of the Federal University of Lavras. For any use of these data in other works, please contact the authors
+silvia.ferreira@ufla.br
+joaquim@ufla.br
+marcelo.rezende@ufla.br
 
-Dora Castro
-Saúl Méndez
-Luis Carreto

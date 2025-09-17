@@ -21,7 +21,7 @@ This repository contains all scripts required to reproduce the simulation and nu
 |--------|-------------------|-------------|
 | `https://www.google.com/maps/d/u/0/edit?mid=1TxKzTqwEfGx__l0Tg8phycSTLsyf0gA&usp=sharing` | Fig. 1 | Google My Maps link containing the geographical coordinates of poles and transformers at UFLA. |
 | `script_UFLA_OpenDSS_deterministic_power_flow.py` | Table II and Fig 5 | This routine performs a deterministic (snapshot) power flow analysis in OpenDSS. It uses the OpenDSS input files located in the folder `OpenDSS_Files - UFLA` as the system model. The routine solves the power flow for different scenarios (minimum/maximum demand, with or without distributed generation) and saves the results in an Excel file. |
-| `script_UFLA_OpenDSS_daily_power_flow.py` | Fig. 6 (a, b, c, d, e f, g, h) | This routine performs a daily time-series power flow analysis in OpenDSS, located in the folder OpenDSS_Files - UFLA. In addition to solving the power flow for different scenarios the routine implements an optimization algorithm to determine the optimal capacitor bank size. All simulation results, including voltage profiles, total active and reactive power, and power factor, are saved in an Excel file. |
+| `script_UFLA_OpenDSS_daily_power_flow.py` | Fig. 6 (a, b, c, d, e f, g, h) | This routine performs a daily time-series power flow analysis in OpenDSS, located in the folder `OpenDSS_Files - UFLA`. In addition to solving the power flow for different scenarios the routine implements an optimization algorithm to determine the optimal capacitor bank size. All simulation results, including voltage profiles, total active and reactive power, and power factor, are saved in an Excel file. |
 
 ---
 
@@ -29,7 +29,7 @@ This repository contains all scripts required to reproduce the simulation and nu
 
 | File | Adjustments |
 |------|-------------|
-| `script_UFLA_OpenDSS_deterministic_power_flow.py` | Update the file paths to match your computer. 
+| `script_UFLA_OpenDSS_deterministic_power_flow.py` `script_UFLA_OpenDSS_daily_power_flow.py` | Update the file paths to match your computer. 
 ||`circuito = r"C:\Users\User\Desktop\ModelingUFLA\Master_A.dss"`|
 ||`arquivo_cargas_min = r"C:\Users\User\Desktop\ModelingUFLA\Loads_A.txt"`|
 ||`arquivo_cargas_max = r"C:\Users\User\Desktop\ModelingUFLA\Loads_B.txt"`|

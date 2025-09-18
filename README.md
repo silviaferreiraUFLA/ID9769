@@ -65,11 +65,11 @@ The output files in .xls format will be automatically saved in the folder `Model
 
 ## ✉️ Contact
 
-For questions:  
+The data used in this work were collected from the distribution system of the Federal University of Lavras. For any use of these data in other works, please contact the authors:
+
 silvia.ferreira@ufla.br
 
-The data used in this work were collected from the distribution system of the Federal University of Lavras. For any use of these data in other works, please contact the authors
-silvia.ferreira@ufla.br
 joaquim@ufla.br
+
 marcelo.rezende@ufla.br
 

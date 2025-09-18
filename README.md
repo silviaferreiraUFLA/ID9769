@@ -1,15 +1,18 @@
 # Modeling and Analysis of Distribution Power System at UFLA Using OpenDSS
 
-**Manuscript ID:** IEEE LATAM Submission ID: 9769 
+IEEE Latin America Transactions
+
+**Manuscript ID:** 9769
+
 **Authors:**  
 
-- Sílvia Costa Ferreira 
-- Ronnielli Chagas de Oliveira
-- Alexandre de Araújo
-- Alexandre Luiz da Silva
-- Marcelo Arriel Rezende
-- João Paulo de Carvalho Pedroso
-- Joaquim Paulo da Silva
+- Sílvia Costa Ferreira (UFLA)
+- Ronnielli Chagas de Oliveira (UFLA)
+- Alexandre de Araújo (INATEL)
+- Alexandre Luiz da Silva (UFLA)
+- Marcelo Arriel Rezende (UFLA)
+- João Paulo de Carvalho Pedroso (UFLA)
+- Joaquim Paulo da Silva (UFLA)
 
 ---
 

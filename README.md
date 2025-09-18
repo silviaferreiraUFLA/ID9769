@@ -17,6 +17,7 @@
 
 This repository contains all scripts required to reproduce the simulation and numerical results presented in the article.
 
+
 | File | Related Figure(s) | Description |
 |--------|-------------------|-------------|
 | `https://www.google.com/maps/d/u/0/edit?mid=1TxKzTqwEfGx__l0Tg8phycSTLsyf0gA&usp=sharing` | Fig. 1 | Google My Maps link containing the geographical coordinates of poles and transformers at UFLA. |
@@ -29,23 +30,26 @@ This repository contains all scripts required to reproduce the simulation and nu
 
 **1.Download and extract** the zipped folder `ModelingUFLA`, available inside the directory `OpenDSS_Files - UFLA`.
 
-**2. Open the Python scripts** in your environment (e.g., Spyder) and set the correct paths for the OpenDSS model and load shape files, according to your local directory structure.
+**2. Open the Python scripts** 
 
-| File | Adjustments |
-|------|-------------|
-| `script_UFLA_OpenDSS_deterministic_power_flow.py`  | Update the file paths to match your computer. 
-|`script_UFLA_OpenDSS_daily_power_flow.py`|`circuito = r"C:\Users\User\Desktop\ModelingUFLA\Master_A.dss"`|
-||`arquivo_cargas_min = r"C:\Users\User\Desktop\ModelingUFLA\Loads_A.txt"`|
-||`arquivo_cargas_max = r"C:\Users\User\Desktop\ModelingUFLA\Loads_B.txt"`|
-||`pv1 = r"C:\Users\User\Desktop\ModelingUFLA\PVSystem1.txt"`|
-||`pv2 = r"C:\Users\User\Desktop\ModelingUFLA\PVSystem2.txt"`|
-||#Save results to Excel  `df.to_excel(r"C:\Users\User\Desktop\resultados_cenarios.xlsx", index=False)`|
+`script_UFLA_OpenDSS_deterministic_power_flow.py`
+`script_UFLA_OpenDSS_daily_power_flow.py`
+
+in your environment (e.g., Spyder).
+
+**3. ⚙️ Directory adjustment**  
+
+Update the directories in the scripts to point to the location where you saved the `ModelingUFLA` folder.  
+By default, the paths are defined as:  
+
+`C:\Users\User\Desktop\ModelingUFLA` and `C:\\Users\\User\\Desktop\\ModelingUFLA`
+
+Replace these paths with the actual location of the `ModelingUFLA` folder on your computer.
 
 
+**4. Execute the scripts** to perform the simulations.
 
-**3. Execute the scripts** to perform the simulations.
-
-**4. Check the results**
+**5. Check the results**
 The output files in .xls format will be automatically saved in the folder `ModelingUFLA\Resultados`.
 
 
@@ -61,10 +65,10 @@ The output files in .xls format will be automatically saved in the folder `Model
 
 ## ✉️ Contact
 
-For questions or replication of results:  
+For questions:  
 silvia.ferreira@ufla.br
 
-The data used in this work, including model data, were collected from the distribution system of the Federal University of Lavras. For any use of these data in other works, please contact the authors
+The data used in this work were collected from the distribution system of the Federal University of Lavras. For any use of these data in other works, please contact the authors
 silvia.ferreira@ufla.br
 joaquim@ufla.br
 marcelo.rezende@ufla.br
